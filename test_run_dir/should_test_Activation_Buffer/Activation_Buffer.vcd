@@ -1,5 +1,5 @@
 $date
-2022-12-12T14:22+0000
+2022-12-13T14:34+0000
 $end
 $version
 0.2
@@ -10,294 +10,615 @@ $end
 $timescale 1ns  $end
 $scope module Activation_Buffer $end
  $var wire 1 ! empty $end
- $var wire 8 " buffer_6_14 $end
- $var wire 8 # buffer_6_13 $end
- $var wire 8 $ buffer_6_12 $end
- $var wire 8 % buffer_6_11 $end
- $var wire 8 & buffer_6_15 $end
- $var wire 8 ' buffer_6_10 $end
- $var wire 8 ( io_in_data_x_12 $end
- $var wire 8 ) io_in_data_x_13 $end
- $var wire 8 * io_in_data_x_14 $end
- $var wire 8 + io_in_data_x_15 $end
- $var wire 8 , io_in_data_x_10 $end
- $var wire 8 - io_in_data_x_11 $end
- $var wire 1 . full $end
- $var wire 8 / buffer_0_1 $end
- $var wire 8 0 buffer_0_0 $end
- $var wire 8 1 buffer_0_5 $end
- $var wire 8 2 buffer_0_4 $end
- $var wire 8 3 buffer_0_3 $end
- $var wire 8 4 buffer_0_2 $end
- $var wire 8 5 buffer_0_9 $end
- $var wire 8 6 buffer_0_8 $end
- $var wire 8 7 buffer_0_7 $end
- $var wire 8 8 buffer_0_6 $end
- $var wire 8 9 buffer_2_10 $end
- $var wire 8 : buffer_2_12 $end
- $var wire 8 ; buffer_2_11 $end
- $var wire 8 < buffer_2_14 $end
- $var wire 8 = buffer_2_13 $end
- $var wire 8 > buffer_2_15 $end
- $var wire 8 ? buffer_4_1 $end
- $var wire 8 @ buffer_4_0 $end
- $var wire 8 A buffer_4_5 $end
- $var wire 8 B buffer_4_4 $end
- $var wire 8 C buffer_4_3 $end
- $var wire 8 D buffer_4_2 $end
- $var wire 8 E buffer_4_9 $end
- $var wire 8 F buffer_4_8 $end
- $var wire 8 G buffer_4_7 $end
- $var wire 8 H buffer_4_6 $end
- $var wire 8 I buffer_3_10 $end
- $var wire 8 J buffer_3_11 $end
- $var wire 8 K buffer_3_14 $end
- $var wire 8 L buffer_3_15 $end
- $var wire 8 M buffer_3_12 $end
- $var wire 8 N buffer_3_13 $end
- $var wire 4 O flow_ptr $end
- $var wire 8 P buffer_7_12 $end
- $var wire 8 Q buffer_7_13 $end
- $var wire 8 R buffer_7_14 $end
- $var wire 8 S buffer_7_15 $end
- $var wire 8 T buffer_7_10 $end
- $var wire 8 U buffer_7_11 $end
- $var wire 1 V io_isfull $end
- $var wire 8 W buffer_1_0 $end
- $var wire 8 X buffer_1_4 $end
- $var wire 8 Y buffer_1_3 $end
- $var wire 8 Z buffer_1_2 $end
- $var wire 8 [ buffer_1_1 $end
- $var wire 8 \ buffer_1_8 $end
- $var wire 8 ] buffer_1_7 $end
- $var wire 8 ^ buffer_1_6 $end
- $var wire 8 _ buffer_1_5 $end
- $var wire 8 ` buffer_1_9 $end
- $var wire 8 a buffer_5_0 $end
- $var wire 8 b buffer_5_4 $end
- $var wire 8 c buffer_5_3 $end
- $var wire 8 d buffer_5_2 $end
- $var wire 8 e buffer_5_1 $end
- $var wire 8 f buffer_5_8 $end
- $var wire 8 g buffer_5_7 $end
- $var wire 8 h buffer_5_6 $end
- $var wire 8 i buffer_5_5 $end
- $var wire 8 j buffer_5_9 $end
- $var wire 8 k buffer_6_3 $end
- $var wire 8 l buffer_6_2 $end
- $var wire 8 m buffer_6_1 $end
- $var wire 8 n buffer_6_0 $end
- $var wire 8 o buffer_6_7 $end
- $var wire 8 p buffer_6_6 $end
- $var wire 8 q buffer_6_5 $end
- $var wire 8 r buffer_6_4 $end
- $var wire 8 s buffer_6_9 $end
- $var wire 8 t buffer_6_8 $end
- $var wire 8 u buffer_4_11 $end
- $var wire 8 v buffer_4_12 $end
- $var wire 8 w buffer_4_10 $end
- $var wire 8 x buffer_4_15 $end
- $var wire 8 y buffer_4_13 $end
- $var wire 8 z buffer_4_14 $end
- $var wire 1 { clock $end
- $var wire 1 | reset $end
- $var wire 8 } io_in_data_x_8 $end
- $var wire 8 ~ io_in_data_x_7 $end
- $var wire 8 "! io_in_data_x_9 $end
- $var wire 8 "" io_in_data_x_4 $end
- $var wire 8 "# buffer_2_3 $end
- $var wire 8 "$ io_in_data_x_3 $end
- $var wire 8 "% buffer_2_2 $end
- $var wire 8 "& io_in_data_x_6 $end
- $var wire 8 "' buffer_2_1 $end
- $var wire 8 "( io_in_data_x_5 $end
- $var wire 8 ") buffer_2_0 $end
- $var wire 8 "* io_in_data_x_0 $end
- $var wire 8 "+ buffer_2_7 $end
- $var wire 8 ", buffer_2_6 $end
- $var wire 8 "- io_in_data_x_2 $end
- $var wire 8 ". buffer_2_5 $end
- $var wire 8 "/ io_in_data_x_1 $end
- $var wire 8 "0 buffer_2_4 $end
- $var wire 8 "1 buffer_2_9 $end
- $var wire 8 "2 buffer_2_8 $end
- $var wire 1 "3 io_ren $end
- $var wire 8 "4 buffer_0_10 $end
- $var wire 8 "5 buffer_0_12 $end
- $var wire 8 "6 buffer_0_11 $end
- $var wire 8 "7 buffer_0_14 $end
- $var wire 8 "8 buffer_0_13 $end
- $var wire 8 "9 buffer_0_15 $end
- $var wire 8 ": buffer_7_2 $end
- $var wire 8 "; buffer_7_1 $end
- $var wire 8 "< buffer_7_0 $end
- $var wire 8 "= buffer_7_6 $end
- $var wire 8 "> buffer_7_5 $end
- $var wire 8 "? buffer_7_4 $end
- $var wire 8 "@ buffer_7_3 $end
- $var wire 8 "A buffer_7_9 $end
- $var wire 8 "B buffer_7_8 $end
- $var wire 8 "C buffer_7_7 $end
- $var wire 1 "D io_out_flow $end
- $var wire 4 "E read_ptr $end
- $var wire 1 "F io_wen $end
- $var wire 8 "G buffer_5_13 $end
- $var wire 8 "H buffer_5_12 $end
- $var wire 8 "I buffer_5_11 $end
- $var wire 8 "J buffer_5_10 $end
- $var wire 8 "K io_out_activate_1 $end
- $var wire 8 "L io_out_activate_0 $end
- $var wire 8 "M buffer_5_15 $end
- $var wire 8 "N buffer_5_14 $end
- $var wire 8 "O io_out_activate_3 $end
- $var wire 8 "P io_out_activate_2 $end
- $var wire 4 "Q write_ptr $end
- $var wire 8 "R buffer_3_2 $end
- $var wire 8 "S buffer_3_1 $end
- $var wire 8 "T buffer_3_0 $end
- $var wire 8 "U buffer_3_6 $end
- $var wire 8 "V buffer_3_5 $end
- $var wire 8 "W buffer_3_4 $end
- $var wire 8 "X buffer_3_3 $end
- $var wire 8 "Y buffer_3_9 $end
- $var wire 8 "Z buffer_3_8 $end
- $var wire 8 "[ buffer_3_7 $end
- $var wire 8 "\ buffer_1_11 $end
- $var wire 8 "] buffer_1_10 $end
- $var wire 8 "^ buffer_1_13 $end
- $var wire 8 "_ buffer_1_12 $end
- $var wire 8 "` buffer_1_15 $end
- $var wire 8 "a buffer_1_14 $end
+ $var wire 8 " buffer_6_47 $end
+ $var wire 8 # buffer_6_46 $end
+ $var wire 8 $ buffer_6_45 $end
+ $var wire 8 % buffer_6_44 $end
+ $var wire 8 & buffer_6_49 $end
+ $var wire 8 ' buffer_6_48 $end
+ $var wire 8 ( buffer_6_43 $end
+ $var wire 8 ) buffer_6_42 $end
+ $var wire 8 * buffer_6_41 $end
+ $var wire 8 + buffer_6_40 $end
+ $var wire 8 , buffer_6_58 $end
+ $var wire 8 - buffer_6_57 $end
+ $var wire 8 . buffer_6_56 $end
+ $var wire 8 / buffer_6_55 $end
+ $var wire 8 0 buffer_6_59 $end
+ $var wire 8 1 buffer_6_50 $end
+ $var wire 8 2 buffer_6_54 $end
+ $var wire 8 3 buffer_6_53 $end
+ $var wire 8 4 buffer_6_52 $end
+ $var wire 8 5 buffer_6_51 $end
+ $var wire 8 6 buffer_6_25 $end
+ $var wire 8 7 buffer_6_24 $end
+ $var wire 8 8 buffer_6_23 $end
+ $var wire 8 9 buffer_6_22 $end
+ $var wire 8 : buffer_6_29 $end
+ $var wire 8 ; buffer_6_28 $end
+ $var wire 8 < buffer_6_27 $end
+ $var wire 8 = buffer_6_26 $end
+ $var wire 8 > buffer_6_21 $end
+ $var wire 8 ? buffer_6_20 $end
+ $var wire 8 @ buffer_6_36 $end
+ $var wire 8 A buffer_6_35 $end
+ $var wire 8 B buffer_6_34 $end
+ $var wire 8 C buffer_6_33 $end
+ $var wire 8 D buffer_6_39 $end
+ $var wire 8 E buffer_6_38 $end
+ $var wire 8 F buffer_6_37 $end
+ $var wire 8 G buffer_6_32 $end
+ $var wire 8 H buffer_6_31 $end
+ $var wire 8 I buffer_6_30 $end
+ $var wire 8 J buffer_6_14 $end
+ $var wire 8 K buffer_6_13 $end
+ $var wire 8 L buffer_6_12 $end
+ $var wire 8 M buffer_6_11 $end
+ $var wire 8 N buffer_6_18 $end
+ $var wire 8 O buffer_6_17 $end
+ $var wire 8 P buffer_6_16 $end
+ $var wire 8 Q buffer_6_15 $end
+ $var wire 8 R buffer_6_10 $end
+ $var wire 8 S buffer_6_19 $end
+ $var wire 8 T io_in_data_x_12 $end
+ $var wire 8 U io_in_data_x_13 $end
+ $var wire 8 V io_in_data_x_14 $end
+ $var wire 8 W io_in_data_x_15 $end
+ $var wire 8 X io_in_data_x_10 $end
+ $var wire 8 Y io_in_data_x_11 $end
+ $var wire 8 Z io_in_data_x_16 $end
+ $var wire 8 [ io_in_data_x_17 $end
+ $var wire 8 \ io_in_data_x_18 $end
+ $var wire 8 ] io_in_data_x_19 $end
+ $var wire 8 ^ io_in_data_x_23 $end
+ $var wire 8 _ io_in_data_x_24 $end
+ $var wire 8 ` io_in_data_x_25 $end
+ $var wire 8 a io_in_data_x_26 $end
+ $var wire 8 b io_in_data_x_20 $end
+ $var wire 8 c io_in_data_x_21 $end
+ $var wire 8 d io_in_data_x_22 $end
+ $var wire 8 e io_in_data_x_27 $end
+ $var wire 8 f io_in_data_x_28 $end
+ $var wire 8 g io_in_data_x_29 $end
+ $var wire 8 h io_in_data_x_34 $end
+ $var wire 8 i io_in_data_x_35 $end
+ $var wire 8 j io_in_data_x_36 $end
+ $var wire 8 k io_in_data_x_37 $end
+ $var wire 8 l io_in_data_x_30 $end
+ $var wire 8 m io_in_data_x_31 $end
+ $var wire 8 n io_in_data_x_32 $end
+ $var wire 8 o io_in_data_x_33 $end
+ $var wire 8 p io_in_data_x_38 $end
+ $var wire 8 q io_in_data_x_39 $end
+ $var wire 8 r io_in_data_x_40 $end
+ $var wire 8 s io_in_data_x_45 $end
+ $var wire 8 t io_in_data_x_46 $end
+ $var wire 8 u io_in_data_x_47 $end
+ $var wire 8 v io_in_data_x_48 $end
+ $var wire 8 w io_in_data_x_41 $end
+ $var wire 8 x io_in_data_x_42 $end
+ $var wire 8 y io_in_data_x_43 $end
+ $var wire 8 z io_in_data_x_44 $end
+ $var wire 8 { io_in_data_x_49 $end
+ $var wire 8 | io_in_data_x_50 $end
+ $var wire 8 } io_in_data_x_51 $end
+ $var wire 8 ~ io_in_data_x_56 $end
+ $var wire 8 "! io_in_data_x_57 $end
+ $var wire 8 "" io_in_data_x_58 $end
+ $var wire 8 "# io_in_data_x_59 $end
+ $var wire 8 "$ io_in_data_x_52 $end
+ $var wire 8 "% io_in_data_x_53 $end
+ $var wire 8 "& io_in_data_x_54 $end
+ $var wire 8 "' io_in_data_x_55 $end
+ $var wire 8 "( io_in_data_x_60 $end
+ $var wire 8 ") io_in_data_x_61 $end
+ $var wire 8 "* io_in_data_x_62 $end
+ $var wire 8 "+ io_in_data_x_63 $end
+ $var wire 8 ", buffer_4_1 $end
+ $var wire 8 "- buffer_4_0 $end
+ $var wire 8 ". buffer_4_5 $end
+ $var wire 8 "/ buffer_4_4 $end
+ $var wire 8 "0 buffer_4_3 $end
+ $var wire 8 "1 buffer_4_2 $end
+ $var wire 8 "2 buffer_4_9 $end
+ $var wire 8 "3 buffer_4_8 $end
+ $var wire 8 "4 buffer_4_7 $end
+ $var wire 8 "5 buffer_4_6 $end
+ $var wire 8 "6 buffer_6_61 $end
+ $var wire 8 "7 buffer_6_60 $end
+ $var wire 8 "8 buffer_6_63 $end
+ $var wire 8 "9 buffer_6_62 $end
+ $var wire 8 ": buffer_5_0 $end
+ $var wire 8 "; buffer_5_4 $end
+ $var wire 8 "< buffer_5_3 $end
+ $var wire 8 "= buffer_5_2 $end
+ $var wire 8 "> buffer_5_1 $end
+ $var wire 8 "? buffer_5_8 $end
+ $var wire 8 "@ buffer_5_7 $end
+ $var wire 8 "A buffer_5_6 $end
+ $var wire 8 "B buffer_5_5 $end
+ $var wire 8 "C buffer_5_9 $end
+ $var wire 8 "D buffer_6_3 $end
+ $var wire 8 "E buffer_6_2 $end
+ $var wire 8 "F buffer_6_1 $end
+ $var wire 8 "G buffer_6_0 $end
+ $var wire 8 "H buffer_6_7 $end
+ $var wire 8 "I buffer_6_6 $end
+ $var wire 8 "J buffer_6_5 $end
+ $var wire 8 "K buffer_6_4 $end
+ $var wire 8 "L buffer_6_9 $end
+ $var wire 8 "M buffer_6_8 $end
+ $var wire 8 "N buffer_7_2 $end
+ $var wire 8 "O buffer_7_1 $end
+ $var wire 8 "P buffer_7_0 $end
+ $var wire 8 "Q buffer_7_6 $end
+ $var wire 8 "R buffer_7_5 $end
+ $var wire 8 "S buffer_7_4 $end
+ $var wire 8 "T buffer_7_3 $end
+ $var wire 8 "U buffer_7_9 $end
+ $var wire 8 "V buffer_7_8 $end
+ $var wire 8 "W buffer_7_7 $end
+ $var wire 8 "X buffer_5_57 $end
+ $var wire 8 "Y buffer_5_56 $end
+ $var wire 8 "Z buffer_5_55 $end
+ $var wire 8 "[ buffer_5_54 $end
+ $var wire 8 "\ buffer_5_59 $end
+ $var wire 8 "] buffer_5_58 $end
+ $var wire 8 "^ buffer_5_53 $end
+ $var wire 8 "_ buffer_5_52 $end
+ $var wire 8 "` buffer_5_51 $end
+ $var wire 8 "a buffer_5_50 $end
+ $var wire 8 "b buffer_5_60 $end
+ $var wire 8 "c buffer_5_63 $end
+ $var wire 8 "d buffer_5_62 $end
+ $var wire 8 "e buffer_5_61 $end
+ $var wire 8 "f buffer_5_35 $end
+ $var wire 8 "g buffer_5_34 $end
+ $var wire 8 "h buffer_5_33 $end
+ $var wire 8 "i buffer_5_32 $end
+ $var wire 8 "j buffer_5_39 $end
+ $var wire 8 "k buffer_5_38 $end
+ $var wire 8 "l buffer_5_37 $end
+ $var wire 8 "m buffer_5_36 $end
+ $var wire 8 "n buffer_5_31 $end
+ $var wire 8 "o buffer_5_30 $end
+ $var wire 8 "p buffer_5_46 $end
+ $var wire 8 "q buffer_5_45 $end
+ $var wire 8 "r buffer_5_44 $end
+ $var wire 8 "s buffer_5_43 $end
+ $var wire 8 "t buffer_5_49 $end
+ $var wire 8 "u buffer_5_48 $end
+ $var wire 8 "v buffer_5_47 $end
+ $var wire 8 "w buffer_5_42 $end
+ $var wire 8 "x buffer_5_41 $end
+ $var wire 8 "y buffer_5_40 $end
+ $var wire 8 "z buffer_5_13 $end
+ $var wire 8 "{ buffer_5_12 $end
+ $var wire 8 "| buffer_5_11 $end
+ $var wire 8 "} buffer_5_10 $end
+ $var wire 8 "~ buffer_5_17 $end
+ $var wire 8 #! buffer_5_16 $end
+ $var wire 8 #" buffer_5_15 $end
+ $var wire 8 ## buffer_5_14 $end
+ $var wire 8 #$ buffer_5_19 $end
+ $var wire 8 #% buffer_5_18 $end
+ $var wire 8 #& buffer_5_24 $end
+ $var wire 8 #' buffer_5_23 $end
+ $var wire 8 #( buffer_5_22 $end
+ $var wire 8 #) buffer_5_21 $end
+ $var wire 8 #* buffer_5_28 $end
+ $var wire 8 #+ buffer_5_27 $end
+ $var wire 8 #, buffer_5_26 $end
+ $var wire 8 #- buffer_5_25 $end
+ $var wire 8 #. buffer_5_20 $end
+ $var wire 8 #/ buffer_5_29 $end
+ $var wire 8 #0 buffer_0_1 $end
+ $var wire 8 #1 buffer_0_0 $end
+ $var wire 8 #2 buffer_0_5 $end
+ $var wire 8 #3 buffer_0_4 $end
+ $var wire 8 #4 buffer_0_3 $end
+ $var wire 8 #5 buffer_0_2 $end
+ $var wire 8 #6 buffer_0_9 $end
+ $var wire 8 #7 buffer_0_8 $end
+ $var wire 8 #8 buffer_0_7 $end
+ $var wire 8 #9 buffer_0_6 $end
+ $var wire 8 #: buffer_1_0 $end
+ $var wire 8 #; buffer_1_4 $end
+ $var wire 8 #< buffer_1_3 $end
+ $var wire 8 #= buffer_1_2 $end
+ $var wire 8 #> buffer_1_1 $end
+ $var wire 8 #? buffer_1_8 $end
+ $var wire 8 #@ buffer_1_7 $end
+ $var wire 8 #A buffer_1_6 $end
+ $var wire 8 #B buffer_1_5 $end
+ $var wire 8 #C buffer_1_9 $end
+ $var wire 8 #D buffer_4_22 $end
+ $var wire 8 #E buffer_4_23 $end
+ $var wire 8 #F buffer_4_20 $end
+ $var wire 8 #G buffer_4_21 $end
+ $var wire 8 #H buffer_4_26 $end
+ $var wire 8 #I buffer_4_27 $end
+ $var wire 8 #J buffer_4_24 $end
+ $var wire 8 #K buffer_4_25 $end
+ $var wire 8 #L buffer_4_28 $end
+ $var wire 8 #M buffer_4_29 $end
+ $var wire 8 #N buffer_4_33 $end
+ $var wire 8 #O buffer_4_34 $end
+ $var wire 8 #P buffer_4_31 $end
+ $var wire 8 #Q buffer_4_32 $end
+ $var wire 8 #R buffer_4_37 $end
+ $var wire 8 #S buffer_4_38 $end
+ $var wire 8 #T buffer_4_35 $end
+ $var wire 8 #U buffer_4_36 $end
+ $var wire 8 #V buffer_4_30 $end
+ $var wire 8 #W buffer_4_39 $end
+ $var wire 8 #X buffer_4_11 $end
+ $var wire 8 #Y buffer_4_12 $end
+ $var wire 8 #Z buffer_4_10 $end
+ $var wire 8 #[ buffer_4_15 $end
+ $var wire 8 #\ buffer_4_16 $end
+ $var wire 8 #] buffer_4_13 $end
+ $var wire 8 #^ buffer_4_14 $end
+ $var wire 8 #_ buffer_4_19 $end
+ $var wire 8 #` buffer_4_17 $end
+ $var wire 8 #a buffer_4_18 $end
+ $var wire 8 #b buffer_4_62 $end
+ $var wire 8 #c buffer_4_63 $end
+ $var wire 8 #d buffer_4_60 $end
+ $var wire 8 #e buffer_4_61 $end
+ $var wire 8 #f buffer_4_44 $end
+ $var wire 8 #g buffer_4_45 $end
+ $var wire 8 #h buffer_4_42 $end
+ $var wire 8 #i buffer_4_43 $end
+ $var wire 8 #j buffer_4_48 $end
+ $var wire 8 #k buffer_4_49 $end
+ $var wire 8 #l buffer_4_46 $end
+ $var wire 8 #m buffer_4_47 $end
+ $var wire 8 #n buffer_4_40 $end
+ $var wire 8 #o buffer_4_41 $end
+ $var wire 8 #p buffer_4_55 $end
+ $var wire 8 #q buffer_4_56 $end
+ $var wire 8 #r buffer_4_53 $end
+ $var wire 8 #s buffer_4_54 $end
+ $var wire 8 #t buffer_4_59 $end
+ $var wire 8 #u buffer_4_57 $end
+ $var wire 8 #v buffer_4_58 $end
+ $var wire 8 #w buffer_4_51 $end
+ $var wire 8 #x buffer_4_52 $end
+ $var wire 8 #y buffer_4_50 $end
+ $var wire 1 #z reset $end
+ $var wire 8 #{ buffer_2_3 $end
+ $var wire 8 #| buffer_2_2 $end
+ $var wire 8 #} buffer_2_1 $end
+ $var wire 8 #~ buffer_2_0 $end
+ $var wire 8 $! buffer_2_7 $end
+ $var wire 8 $" buffer_2_6 $end
+ $var wire 8 $# buffer_2_5 $end
+ $var wire 8 $$ buffer_2_4 $end
+ $var wire 8 $% buffer_2_9 $end
+ $var wire 8 $& buffer_2_8 $end
+ $var wire 4 $' write_ptr $end
+ $var wire 8 $( buffer_3_2 $end
+ $var wire 8 $) buffer_3_1 $end
+ $var wire 8 $* buffer_3_0 $end
+ $var wire 8 $+ buffer_3_6 $end
+ $var wire 8 $, buffer_3_5 $end
+ $var wire 8 $- buffer_3_4 $end
+ $var wire 8 $. buffer_3_3 $end
+ $var wire 8 $/ buffer_3_9 $end
+ $var wire 8 $0 buffer_3_8 $end
+ $var wire 8 $1 buffer_3_7 $end
+ $var wire 1 $2 full $end
+ $var wire 8 $3 buffer_3_54 $end
+ $var wire 8 $4 buffer_3_55 $end
+ $var wire 8 $5 buffer_3_52 $end
+ $var wire 8 $6 buffer_3_53 $end
+ $var wire 8 $7 buffer_3_58 $end
+ $var wire 8 $8 buffer_3_59 $end
+ $var wire 8 $9 buffer_3_56 $end
+ $var wire 8 $: buffer_3_57 $end
+ $var wire 8 $; buffer_3_50 $end
+ $var wire 8 $< buffer_3_51 $end
+ $var wire 8 $= buffer_3_63 $end
+ $var wire 8 $> buffer_3_61 $end
+ $var wire 8 $? buffer_3_62 $end
+ $var wire 8 $@ buffer_3_60 $end
+ $var wire 8 $A buffer_3_32 $end
+ $var wire 8 $B buffer_3_33 $end
+ $var wire 8 $C buffer_3_30 $end
+ $var wire 8 $D buffer_3_31 $end
+ $var wire 8 $E buffer_3_36 $end
+ $var wire 8 $F buffer_3_37 $end
+ $var wire 8 $G buffer_3_34 $end
+ $var wire 8 $H buffer_3_35 $end
+ $var wire 8 $I buffer_3_38 $end
+ $var wire 8 $J buffer_3_39 $end
+ $var wire 8 $K buffer_3_43 $end
+ $var wire 8 $L buffer_3_44 $end
+ $var wire 8 $M buffer_3_41 $end
+ $var wire 8 $N buffer_3_42 $end
+ $var wire 8 $O buffer_3_47 $end
+ $var wire 8 $P buffer_3_48 $end
+ $var wire 8 $Q buffer_3_45 $end
+ $var wire 8 $R buffer_3_46 $end
+ $var wire 8 $S buffer_3_40 $end
+ $var wire 8 $T buffer_3_49 $end
+ $var wire 8 $U buffer_3_10 $end
+ $var wire 8 $V buffer_3_11 $end
+ $var wire 8 $W buffer_3_14 $end
+ $var wire 8 $X buffer_3_15 $end
+ $var wire 8 $Y buffer_3_12 $end
+ $var wire 8 $Z buffer_3_13 $end
+ $var wire 8 $[ buffer_3_18 $end
+ $var wire 8 $\ buffer_3_19 $end
+ $var wire 8 $] buffer_3_16 $end
+ $var wire 8 $^ buffer_3_17 $end
+ $var wire 8 $_ buffer_3_21 $end
+ $var wire 8 $` buffer_3_22 $end
+ $var wire 8 $a buffer_3_20 $end
+ $var wire 8 $b buffer_3_25 $end
+ $var wire 8 $c buffer_3_26 $end
+ $var wire 8 $d buffer_3_23 $end
+ $var wire 8 $e buffer_3_24 $end
+ $var wire 8 $f buffer_3_29 $end
+ $var wire 8 $g buffer_3_27 $end
+ $var wire 8 $h buffer_3_28 $end
+ $var wire 8 $i io_out_activate_1 $end
+ $var wire 8 $j io_out_activate_0 $end
+ $var wire 8 $k io_out_activate_5 $end
+ $var wire 8 $l io_out_activate_4 $end
+ $var wire 8 $m io_out_activate_3 $end
+ $var wire 8 $n io_out_activate_2 $end
+ $var wire 8 $o io_out_activate_7 $end
+ $var wire 8 $p io_out_activate_6 $end
+ $var wire 8 $q buffer_2_63 $end
+ $var wire 8 $r buffer_2_62 $end
+ $var wire 8 $s buffer_2_61 $end
+ $var wire 8 $t buffer_2_60 $end
+ $var wire 8 $u buffer_2_41 $end
+ $var wire 8 $v buffer_2_40 $end
+ $var wire 8 $w buffer_2_43 $end
+ $var wire 8 $x buffer_2_42 $end
+ $var wire 8 $y buffer_2_45 $end
+ $var wire 8 $z buffer_2_44 $end
+ $var wire 8 ${ buffer_2_47 $end
+ $var wire 8 $| buffer_2_46 $end
+ $var wire 8 $} buffer_2_49 $end
+ $var wire 8 $~ buffer_2_48 $end
+ $var wire 8 %! buffer_2_52 $end
+ $var wire 8 %" buffer_2_51 $end
+ $var wire 8 %# buffer_2_54 $end
+ $var wire 8 %$ buffer_2_53 $end
+ $var wire 8 %% buffer_2_56 $end
+ $var wire 8 %& buffer_2_55 $end
+ $var wire 8 %' buffer_2_58 $end
+ $var wire 8 %( buffer_2_57 $end
+ $var wire 8 %) buffer_2_50 $end
+ $var wire 8 %* buffer_2_59 $end
+ $var wire 8 %+ buffer_2_21 $end
+ $var wire 8 %, buffer_2_20 $end
+ $var wire 8 %- buffer_2_23 $end
+ $var wire 8 %. buffer_2_22 $end
+ $var wire 8 %/ buffer_2_25 $end
+ $var wire 8 %0 buffer_2_24 $end
+ $var wire 8 %1 buffer_2_27 $end
+ $var wire 8 %2 buffer_2_26 $end
+ $var wire 8 %3 buffer_2_29 $end
+ $var wire 8 %4 buffer_2_28 $end
+ $var wire 8 %5 buffer_2_30 $end
+ $var wire 8 %6 buffer_2_32 $end
+ $var wire 8 %7 buffer_2_31 $end
+ $var wire 8 %8 buffer_2_34 $end
+ $var wire 8 %9 buffer_2_33 $end
+ $var wire 8 %: buffer_2_36 $end
+ $var wire 8 %; buffer_2_35 $end
+ $var wire 8 %< buffer_2_38 $end
+ $var wire 8 %= buffer_2_37 $end
+ $var wire 8 %> buffer_2_39 $end
+ $var wire 1 %? io_isdone $end
+ $var wire 8 %@ buffer_2_10 $end
+ $var wire 8 %A buffer_2_12 $end
+ $var wire 8 %B buffer_2_11 $end
+ $var wire 8 %C buffer_2_14 $end
+ $var wire 8 %D buffer_2_13 $end
+ $var wire 8 %E buffer_2_16 $end
+ $var wire 8 %F buffer_2_15 $end
+ $var wire 8 %G buffer_2_18 $end
+ $var wire 8 %H buffer_2_17 $end
+ $var wire 8 %I buffer_2_19 $end
+ $var wire 1 %J io_isfull $end
+ $var wire 8 %K buffer_1_51 $end
+ $var wire 8 %L buffer_1_50 $end
+ $var wire 8 %M buffer_1_53 $end
+ $var wire 8 %N buffer_1_52 $end
+ $var wire 8 %O buffer_1_55 $end
+ $var wire 8 %P buffer_1_54 $end
+ $var wire 8 %Q buffer_1_57 $end
+ $var wire 8 %R buffer_1_56 $end
+ $var wire 8 %S buffer_1_59 $end
+ $var wire 8 %T buffer_1_58 $end
+ $var wire 8 %U buffer_1_62 $end
+ $var wire 8 %V buffer_1_61 $end
+ $var wire 8 %W buffer_1_63 $end
+ $var wire 8 %X buffer_1_60 $end
+ $var wire 1 %Y io_wen $end
+ $var wire 8 %Z buffer_1_31 $end
+ $var wire 8 %[ buffer_1_30 $end
+ $var wire 8 %\ buffer_1_33 $end
+ $var wire 8 %] buffer_1_32 $end
+ $var wire 8 %^ buffer_1_35 $end
+ $var wire 8 %_ buffer_1_34 $end
+ $var wire 8 %` buffer_1_37 $end
+ $var wire 8 %a buffer_1_36 $end
+ $var wire 8 %b buffer_1_39 $end
+ $var wire 8 %c buffer_1_38 $end
+ $var wire 8 %d buffer_1_40 $end
+ $var wire 8 %e buffer_1_42 $end
+ $var wire 8 %f buffer_1_41 $end
+ $var wire 8 %g buffer_1_44 $end
+ $var wire 8 %h buffer_1_43 $end
+ $var wire 8 %i buffer_1_46 $end
+ $var wire 8 %j buffer_1_45 $end
+ $var wire 8 %k buffer_1_48 $end
+ $var wire 8 %l buffer_1_47 $end
+ $var wire 8 %m buffer_1_49 $end
+ $var wire 8 %n buffer_1_11 $end
+ $var wire 8 %o buffer_1_10 $end
+ $var wire 8 %p buffer_1_13 $end
+ $var wire 8 %q buffer_1_12 $end
+ $var wire 8 %r buffer_1_15 $end
+ $var wire 8 %s buffer_1_14 $end
+ $var wire 8 %t buffer_1_17 $end
+ $var wire 8 %u buffer_1_16 $end
+ $var wire 8 %v buffer_1_19 $end
+ $var wire 8 %w buffer_1_18 $end
+ $var wire 8 %x buffer_1_20 $end
+ $var wire 8 %y buffer_1_22 $end
+ $var wire 8 %z buffer_1_21 $end
+ $var wire 8 %{ buffer_1_24 $end
+ $var wire 8 %| buffer_1_23 $end
+ $var wire 8 %} buffer_1_26 $end
+ $var wire 8 %~ buffer_1_25 $end
+ $var wire 8 &! buffer_1_28 $end
+ $var wire 8 &" buffer_1_27 $end
+ $var wire 8 &# buffer_1_29 $end
+ $var wire 8 &$ buffer_0_61 $end
+ $var wire 8 &% buffer_0_60 $end
+ $var wire 8 && buffer_0_63 $end
+ $var wire 8 &' buffer_0_62 $end
+ $var wire 8 &( buffer_0_41 $end
+ $var wire 8 &) buffer_0_40 $end
+ $var wire 8 &* buffer_0_43 $end
+ $var wire 8 &+ buffer_0_42 $end
+ $var wire 8 &, buffer_0_45 $end
+ $var wire 8 &- buffer_0_44 $end
+ $var wire 8 &. buffer_0_47 $end
+ $var wire 8 &/ buffer_0_46 $end
+ $var wire 8 &0 buffer_0_49 $end
+ $var wire 8 &1 buffer_0_48 $end
+ $var wire 8 &2 buffer_0_50 $end
+ $var wire 8 &3 buffer_0_52 $end
+ $var wire 8 &4 buffer_0_51 $end
+ $var wire 8 &5 buffer_0_54 $end
+ $var wire 8 &6 buffer_0_53 $end
+ $var wire 8 &7 buffer_0_56 $end
+ $var wire 8 &8 buffer_0_55 $end
+ $var wire 1 &9 io_ren $end
+ $var wire 8 &: buffer_0_58 $end
+ $var wire 8 &; buffer_0_57 $end
+ $var wire 8 &< buffer_0_59 $end
+ $var wire 8 &= buffer_0_21 $end
+ $var wire 8 &> buffer_0_20 $end
+ $var wire 8 &? buffer_0_23 $end
+ $var wire 8 &@ buffer_0_22 $end
+ $var wire 8 &A buffer_0_25 $end
+ $var wire 8 &B buffer_0_24 $end
+ $var wire 8 &C buffer_0_27 $end
+ $var wire 8 &D buffer_0_26 $end
+ $var wire 8 &E buffer_0_29 $end
+ $var wire 8 &F buffer_0_28 $end
+ $var wire 8 &G buffer_0_30 $end
+ $var wire 8 &H buffer_0_32 $end
+ $var wire 8 &I buffer_0_31 $end
+ $var wire 8 &J buffer_0_34 $end
+ $var wire 8 &K buffer_0_33 $end
+ $var wire 8 &L buffer_0_36 $end
+ $var wire 8 &M buffer_0_35 $end
+ $var wire 8 &N buffer_0_38 $end
+ $var wire 8 &O buffer_0_37 $end
+ $var wire 8 &P buffer_0_39 $end
+ $var wire 8 &Q buffer_0_10 $end
+ $var wire 8 &R buffer_0_12 $end
+ $var wire 8 &S buffer_0_11 $end
+ $var wire 8 &T buffer_0_14 $end
+ $var wire 8 &U buffer_0_13 $end
+ $var wire 8 &V buffer_0_16 $end
+ $var wire 8 &W buffer_0_15 $end
+ $var wire 8 &X buffer_0_18 $end
+ $var wire 8 &Y buffer_0_17 $end
+ $var wire 8 &Z buffer_0_19 $end
+ $var wire 4 &[ read_ptr $end
+ $var wire 1 &\ io_isempty $end
+ $var wire 1 &] clock $end
+ $var wire 5 &^ flow_ptr $end
+ $var wire 8 &_ io_in_data_x_8 $end
+ $var wire 8 &` io_in_data_x_7 $end
+ $var wire 8 &a io_in_data_x_9 $end
+ $var wire 8 &b io_in_data_x_4 $end
+ $var wire 8 &c io_in_data_x_3 $end
+ $var wire 8 &d io_in_data_x_6 $end
+ $var wire 8 &e io_in_data_x_5 $end
+ $var wire 8 &f io_in_data_x_0 $end
+ $var wire 8 &g io_in_data_x_2 $end
+ $var wire 8 &h io_in_data_x_1 $end
+ $var wire 8 &i buffer_7_16 $end
+ $var wire 8 &j buffer_7_17 $end
+ $var wire 8 &k buffer_7_18 $end
+ $var wire 8 &l buffer_7_19 $end
+ $var wire 8 &m buffer_7_12 $end
+ $var wire 8 &n buffer_7_13 $end
+ $var wire 8 &o buffer_7_14 $end
+ $var wire 8 &p buffer_7_15 $end
+ $var wire 8 &q buffer_7_10 $end
+ $var wire 8 &r buffer_7_11 $end
+ $var wire 8 &s buffer_7_27 $end
+ $var wire 8 &t buffer_7_28 $end
+ $var wire 8 &u buffer_7_29 $end
+ $var wire 8 &v buffer_7_23 $end
+ $var wire 8 &w buffer_7_24 $end
+ $var wire 8 &x buffer_7_25 $end
+ $var wire 8 &y buffer_7_26 $end
+ $var wire 8 &z buffer_7_20 $end
+ $var wire 8 &{ buffer_7_21 $end
+ $var wire 8 &| buffer_7_22 $end
+ $var wire 8 &} buffer_7_56 $end
+ $var wire 8 &~ buffer_7_57 $end
+ $var wire 8 '! buffer_7_58 $end
+ $var wire 8 '" buffer_7_59 $end
+ $var wire 8 '# buffer_7_52 $end
+ $var wire 8 '$ buffer_7_53 $end
+ $var wire 8 '% buffer_7_54 $end
+ $var wire 8 '& buffer_7_55 $end
+ $var wire 8 '' buffer_7_50 $end
+ $var wire 8 '( buffer_7_51 $end
+ $var wire 8 ') buffer_7_63 $end
+ $var wire 8 '* buffer_7_60 $end
+ $var wire 8 '+ buffer_7_61 $end
+ $var wire 8 ', buffer_7_62 $end
+ $var wire 8 '- buffer_7_38 $end
+ $var wire 8 '. buffer_7_39 $end
+ $var wire 8 '/ buffer_7_34 $end
+ $var wire 8 '0 buffer_7_35 $end
+ $var wire 8 '1 buffer_7_36 $end
+ $var wire 8 '2 buffer_7_37 $end
+ $var wire 8 '3 buffer_7_30 $end
+ $var wire 8 '4 buffer_7_31 $end
+ $var wire 8 '5 buffer_7_32 $end
+ $var wire 8 '6 buffer_7_33 $end
+ $var wire 8 '7 buffer_7_49 $end
+ $var wire 8 '8 buffer_7_45 $end
+ $var wire 8 '9 buffer_7_46 $end
+ $var wire 8 ': buffer_7_47 $end
+ $var wire 8 '; buffer_7_48 $end
+ $var wire 8 '< buffer_7_41 $end
+ $var wire 8 '= buffer_7_42 $end
+ $var wire 8 '> buffer_7_43 $end
+ $var wire 8 '? buffer_7_44 $end
+ $var wire 8 '@ buffer_7_40 $end
+ $var wire 1 'A io_out_flow $end
 $upscope $end
 $enddefinitions $end
 $dumpvars
-b00000000 k
-b00000000 j
-b00000000 m
-b00000000 l
-b00000000 g
-b00000000 f
-b00000000 i
-b00000000 h
-b00000000 c
-b00000000 b
-b00000000 e
-b00000000 d
-b00000000 _
-b00000000 ^
-b00000000 a
-b00000000 `
-b00000000 z
-b00000000 }
-b00000000 w
-b00000000 v
-b00000000 y
-b00000000 x
-b00000000 s
-b00000000 r
-b00000000 u
-b00000000 t
-b00000000 o
-b00000000 n
-b00000000 q
-b00000000 p
-b00000000 K
-b00000000 J
-b00000000 M
-b00000000 L
-b00000000 G
-b00000000 F
-0V
-b00000000 I
-b00000000 H
-b00000000 C
-b00000000 B
-b00000000 E
-b00000000 D
-b00000000 ?
-b00000000 >
-b00000000 A
-b00000000 @
-b00000000 [
-b00000000 Z
-b00000000 ]
-b00000000 \
-b00000000 W
-b00000000 Y
-b00000000 X
-b00000000 S
-b00000000 R
-b00000000 U
-b00000000 T
-b00000000 "#
-b00000000 ""
-b00000000 N
-b00000000 "!
-b00000000 Q
-b00000000 P
-b00000000 "'
-b00000000 "&
-b00000000 "%
-b00000000 "$
-b00000000 "+
-b00000000 "*
-b00000000 ")
-b00000000 "(
-b00000000 "/
-b00000000 ".
-b00000000 "-
-0{
-b00000000 ",
-0|
-b00000000 "2
-b00000000 "1
-b00000000 "0
-b00000000 "7
-b00000000 "6
-b00000000 "5
-b00000000 "4
-b00000000 ";
-b00000000 ":
-b00000000 "9
-b00000000 "8
-b00000000 "?
-b00000000 ">
-b00000000 "=
-b00000000 "<
-b00000000 "C
-b00000000 "B
-b00000000 "A
-b00000000 "@
-b00000000 "G
-b00000000 "K
-b00000000 "J
-b00000000 "I
-b00000000 "H
-b00000000 "O
-b00000000 "N
-b00000000 "M
-b00000000 "L
-b00000000 "S
-b00000000 "R
-b00000000 ~
-b00000000 "P
-b00000000 "W
-b00000000 "V
-b00000000 "U
-b00000000 "T
-b00000000 "[
-b00000000 "Z
-b00000000 "Y
-b00000000 "X
-b00000000 "_
-b00000000 "^
-b00000000 "]
-b00000000 "\
-b00000000 "a
-b00000000 "`
-0"3
-0"D
-0"F
+0$2
+0#z
+0%?
+0%J
+0&9
+0%Y
+0&\
+0&]
+0'A
+b00000 &^
 b00000000 +
 b00000000 *
 b00000000 -
@@ -317,187 +638,1053 @@ b00000000 <
 b00000000 7
 b00000000 6
 b00000000 9
-b0000 O
 b00000000 8
 b00000000 3
 b00000000 2
 b00000000 5
 b00000000 4
 b00000000 /
+b00000000 .
 b00000000 1
 b00000000 0
-b0000 "E
-b0000 "Q
 0!
-0.
+b0000 $'
+b00000000 &k
+b00000000 k
+b00000000 &j
+b00000000 j
+b00000000 &i
+b00000000 m
+b00000000 &h
+b00000000 l
+b00000000 &o
+b00000000 g
+b00000000 &n
+b00000000 f
+b00000000 &m
+b00000000 i
+b00000000 &l
+b00000000 h
+b00000000 &s
+b00000000 c
+b00000000 &r
+b00000000 b
+b00000000 &q
+b00000000 e
+b00000000 &p
+b00000000 d
+b00000000 &w
+b00000000 _
+b00000000 &v
+b00000000 ^
+b00000000 &u
+b00000000 a
+b00000000 &t
+b00000000 `
+b00000000 &{
+b00000000 {
+b00000000 &z
+b00000000 z
+b00000000 &y
+b00000000 }
+b00000000 &x
+b00000000 |
+b00000000 w
+b00000000 &~
+b00000000 v
+b00000000 &}
+b00000000 y
+b00000000 &|
+b00000000 x
+b00000000 s
+b00000000 r
+b00000000 u
+b00000000 t
+b00000000 o
+b00000000 n
+b00000000 q
+b00000000 p
+b00000000 K
+b00000000 J
+b00000000 M
+b00000000 L
+b00000000 G
+b00000000 F
+b00000000 I
+b00000000 H
+b00000000 C
+b00000000 B
+b00000000 E
+b00000000 D
+b00000000 ?
+b00000000 >
+b00000000 A
+b00000000 @
+b00000000 [
+b00000000 Z
+b00000000 ]
+b00000000 \
+b00000000 W
+b00000000 V
+b00000000 Y
+b00000000 X
+b00000000 S
+b00000000 R
+b00000000 U
+b00000000 T
+b00000000 O
+b00000000 N
+b00000000 Q
+b00000000 P
+b00000000 ~
+b0000 &[
+b00000000 "g
+b00000000 #H
+b00000000 $)
+b00000000 "f
+b00000000 #G
+b00000000 $(
+b00000000 "e
+b00000000 #F
+b00000000 "d
+b00000000 #E
+b00000000 $&
+b00000000 "k
+b00000000 #L
+b00000000 $-
+b00000000 "j
+b00000000 #K
+b00000000 $,
+b00000000 "i
+b00000000 #J
+b00000000 $+
+b00000000 "h
+b00000000 #I
+b00000000 $*
+b00000000 "o
+b00000000 #P
+b00000000 $1
+b00000000 "n
+b00000000 #O
+b00000000 $0
+b00000000 "m
+b00000000 #N
+b00000000 $/
+b00000000 "l
+b00000000 #M
+b00000000 $.
+b00000000 "s
+b00000000 #T
+b00000000 $5
+b00000000 "r
+b00000000 #S
+b00000000 $4
+b00000000 "q
+b00000000 #R
+b00000000 $3
+b00000000 "p
+b00000000 #Q
+b00000000 "w
+b00000000 #X
+b00000000 $9
+b00000000 "v
+b00000000 #W
+b00000000 $8
+b00000000 "u
+b00000000 #V
+b00000000 $7
+b00000000 "t
+b00000000 #U
+b00000000 $6
+b00000000 "{
+b00000000 #\
+b00000000 $=
+b00000000 "z
+b00000000 #[
+b00000000 $<
+b00000000 "y
+b00000000 #Z
+b00000000 $;
+b00000000 "x
+b00000000 #Y
+b00000000 $:
+b00000000 #`
+b00000000 $A
+b00000000 %"
+b00000000 "~
+b00000000 #_
+b00000000 $@
+b00000000 %!
+b00000000 "}
+b00000000 #^
+b00000000 $?
+b00000000 "|
+b00000000 #]
+b00000000 $>
+b00000000 #d
+b00000000 $E
+b00000000 %&
+b00000000 #c
+b00000000 $D
+b00000000 %%
+b00000000 #b
+b00000000 $C
+b00000000 %$
+b00000000 #a
+b00000000 $B
+b00000000 %#
+b00000000 #h
+b00000000 $I
+b00000000 %*
+b00000000 #g
+b00000000 $H
+b00000000 %)
+b00000000 #f
+b00000000 $G
+b00000000 %(
+b00000000 #e
+b00000000 $F
+b00000000 %'
+b00000000 #l
+b00000000 $M
+b00000000 %.
+b00000000 #k
+b00000000 $L
+b00000000 %-
+b00000000 #j
+b00000000 $K
+b00000000 %,
+b00000000 #i
+b00000000 $J
+b00000000 %+
+b00000000 #p
+b00000000 $Q
+b00000000 %2
+b00000000 #o
+b00000000 $P
+b00000000 %1
+b00000000 #n
+b00000000 $O
+b00000000 %0
+b00000000 #m
+b00000000 $N
+b00000000 %/
+b00000000 #t
+b00000000 $U
+b00000000 %6
+b00000000 #s
+b00000000 $T
+b00000000 %5
+b00000000 #r
+b00000000 $S
+b00000000 %4
+b00000000 #q
+b00000000 $R
+b00000000 %3
+b00000000 #x
+b00000000 $Y
+b00000000 %:
+b00000000 #w
+b00000000 $X
+b00000000 %9
+b00000000 #v
+b00000000 $W
+b00000000 %8
+b00000000 #u
+b00000000 $V
+b00000000 %7
+b00000000 #|
+b00000000 $]
+b00000000 %>
+b00000000 #{
+b00000000 $\
+b00000000 %=
+b00000000 $[
+b00000000 %<
+b00000000 #y
+b00000000 $Z
+b00000000 %;
+b00000000 $a
+b00000000 %B
+b00000000 &#
+b00000000 $`
+b00000000 %A
+b00000000 &"
+b00000000 #~
+b00000000 $_
+b00000000 %@
+b00000000 &!
+b00000000 #}
+b00000000 $^
+b00000000 $e
+b00000000 %F
+b00000000 &'
+b00000000 $d
+b00000000 %E
+b00000000 &&
+b00000000 $c
+b00000000 %D
+b00000000 &%
+b00000000 $b
+b00000000 %C
+b00000000 &$
+b00000000 $i
+b00000000 &+
+b00000000 $h
+b00000000 %I
+b00000000 &*
+b00000000 $g
+b00000000 %H
+b00000000 &)
+b00000000 $f
+b00000000 %G
+b00000000 &(
+b00000000 $m
+b00000000 %N
+b00000000 &/
+b00000000 $l
+b00000000 %M
+b00000000 &.
+b00000000 $k
+b00000000 %L
+b00000000 &-
+b00000000 $j
+b00000000 %K
+b00000000 &,
+b00000000 $q
+b00000000 %R
+b00000000 &3
+b00000000 $p
+b00000000 %Q
+b00000000 &2
+b00000000 $o
+b00000000 %P
+b00000000 &1
+b00000000 $n
+b00000000 %O
+b00000000 &0
+b00000000 $u
+b00000000 %V
+b00000000 &7
+b00000000 $t
+b00000000 %U
+b00000000 &6
+b00000000 $s
+b00000000 %T
+b00000000 &5
+b00000000 $r
+b00000000 %S
+b00000000 &4
+b00000000 $y
+b00000000 %Z
+b00000000 &;
+b00000000 $x
+b00000000 &:
+b00000000 $w
+b00000000 %X
+b00000000 $v
+b00000000 %W
+b00000000 &8
+b00000000 $}
+b00000000 %^
+b00000000 &?
+b00000000 $|
+b00000000 %]
+b00000000 &>
+b00000000 ${
+b00000000 %\
+b00000000 &=
+b00000000 $z
+b00000000 %[
+b00000000 &<
+b00000000 %b
+b00000000 &C
+b00000000 '$
+b00000000 %a
+b00000000 &B
+b00000000 '#
+b00000000 %`
+b00000000 &A
+b00000000 '"
+b00000000 $~
+b00000000 %_
+b00000000 &@
+b00000000 '!
+b00000000 %f
+b00000000 &G
+b00000000 '(
+b00000000 %e
+b00000000 &F
+b00000000 ''
+b00000000 %d
+b00000000 &E
+b00000000 '&
+b00000000 %c
+b00000000 &D
+b00000000 '%
+b00000000 %j
+b00000000 &K
+b00000000 ',
+b00000000 %i
+b00000000 &J
+b00000000 '+
+b00000000 %h
+b00000000 &I
+b00000000 '*
+b00000000 %g
+b00000000 &H
+b00000000 ')
+b00000000 %n
+b00000000 &O
+b00000000 '0
+b00000000 %m
+b00000000 &N
+b00000000 '/
+b00000000 %l
+b00000000 &M
+b00000000 '.
+b00000000 %k
+b00000000 &L
+b00000000 '-
+b00000000 %r
+b00000000 &S
+b00000000 '4
+b00000000 %q
+b00000000 &R
+b00000000 '3
+b00000000 %p
+b00000000 &Q
+b00000000 '2
+b00000000 %o
+b00000000 &P
+b00000000 '1
+b00000000 %v
+b00000000 &W
+b00000000 '8
+b00000000 %u
+b00000000 &V
+b00000000 '7
+b00000000 %t
+b00000000 &U
+b00000000 '6
+b00000000 %s
+b00000000 &T
+b00000000 '5
+b00000000 %z
+b00000000 '<
+b00000000 %y
+b00000000 &Z
+b00000000 ';
+b00000000 %x
+b00000000 &Y
+b00000000 ':
+b00000000 %w
+b00000000 &X
+b00000000 '9
+b00000000 %~
+b00000000 &_
+b00000000 '@
+b00000000 %}
+b00000000 '?
+b00000000 %|
+b00000000 '>
+b00000000 %{
+b00000000 '=
+b00000000 &c
+b00000000 &b
+b00000000 &a
+b00000000 &`
+b00000000 &g
+b00000000 &f
+b00000000 &e
+b00000000 &d
+b00000000 "#
+b00000000 ""
+b00000000 "!
+b00000000 "'
+b00000000 "&
+b00000000 "%
+b00000000 "$
+b00000000 "+
+b00000000 "*
+b00000000 ")
+b00000000 "(
+b00000000 "/
+b00000000 ".
+b00000000 "-
+b00000000 ",
+b00000000 "3
+b00000000 "2
+b00000000 "1
+b00000000 "0
+b00000000 "7
+b00000000 "6
+b00000000 "5
+b00000000 "4
+b00000000 ";
+b00000000 ":
+b00000000 "9
+b00000000 "8
+b00000000 "?
+b00000000 ">
+b00000000 "=
+b00000000 "<
+b00000000 "C
+b00000000 #$
+b00000000 "B
+b00000000 ##
+b00000000 "A
+b00000000 #"
+b00000000 "@
+b00000000 #!
+b00000000 "G
+b00000000 #(
+b00000000 "F
+b00000000 #'
+b00000000 "E
+b00000000 #&
+b00000000 "D
+b00000000 #%
+b00000000 "K
+b00000000 #,
+b00000000 "J
+b00000000 #+
+b00000000 "I
+b00000000 #*
+b00000000 "H
+b00000000 #)
+b00000000 "O
+b00000000 #0
+b00000000 "N
+b00000000 #/
+b00000000 "M
+b00000000 #.
+b00000000 "L
+b00000000 #-
+b00000000 "S
+b00000000 #4
+b00000000 "R
+b00000000 #3
+b00000000 "Q
+b00000000 #2
+b00000000 "P
+b00000000 #1
+b00000000 "W
+b00000000 #8
+b00000000 "V
+b00000000 #7
+b00000000 "U
+b00000000 #6
+b00000000 "T
+b00000000 #5
+b00000000 "[
+b00000000 #<
+b00000000 "Z
+b00000000 #;
+b00000000 "Y
+b00000000 #:
+b00000000 "X
+b00000000 #9
+b00000000 "_
+b00000000 #@
+b00000000 $!
+b00000000 "^
+b00000000 #?
+b00000000 "]
+b00000000 #>
+b00000000 "\
+b00000000 #=
+b00000000 "c
+b00000000 #D
+b00000000 $%
+b00000000 "b
+b00000000 #C
+b00000000 $$
+b00000000 "a
+b00000000 #B
+b00000000 $#
+b00000000 "`
+b00000000 #A
+b00000000 $"
 $end
 #0
 1!
-1|
+1&\
+1#z
 #1
-1{
+1&]
 #6
-b00000110 ""
-b00000001 "$
-b00000100 "&
-1"F
-b00000101 "(
-b00000011 (
-b00000111 "*
-b00000011 )
-b00000001 +
-b00000011 "-
-b00000011 ,
-b00000101 -
-b00000110 "/
-0{
-0|
-b00000111 }
-b00000001 ~
-b00000111 "!
-#11
-0!
-b00000110 /
-b0001 "Q
-b00000111 0
-b00000101 1
-b00000110 2
-b00000011 "4
-b00000011 3
-b00000001 "5
-b00000111 4
-b00000100 5
-b00000101 "7
-b00000011 6
-b00000001 "8
-b00000011 7
-b00000001 "9
-b00000111 8
-1{
-#16
-b00000000 ""
-b00000000 "$
-b00000111 "&
-b00000011 "(
-b00000010 (
-b00000100 "*
-b00000001 )
-b00000110 +
-b00000101 "-
-b00000100 ,
-b00000011 -
-b00000010 "/
-0{
-b00000001 }
-b00000011 ~
-b00000101 "!
-#21
-b00000111 `
-b0010 "Q
-b00000100 W
-b00000010 X
-b00000010 Y
-b00000001 Z
-1{
-b00000100 "]
-b00000101 \
-b00000011 "^
+b00000001 &f
+b00000011 &g
+b00000010 &h
+0#z
+b00000011 "!
+b00000101 "#
+b00000110 "$
+b00000001 "%
+b00000101 "'
+b00000111 "(
+b00000011 ")
+b00000110 "*
+b00000101 "+
+1%Y
+b00000001 U
+b00000111 V
+b00000101 W
+b00000100 X
+b00000011 Y
+b00000111 [
+b00000001 \
 b00000001 ]
 b00000101 ^
-b00000110 "`
-b00000011 _
-b00000011 "a
-#26
-1"3
-0"F
-0{
-#31
-1"D
-b00000111 "L
-1{
-b0001 O
-#36
-0"3
-0{
-#41
-b00000110 "K
-b00000110 "L
-1{
-b0010 O
-#46
-0{
-#51
-b00000101 "K
-b00000111 "L
-1{
-b00000011 "P
-b0011 O
-#56
-0{
-#61
-b00000111 "K
-b00000011 "L
-1{
-b00000001 "O
-b00000100 "P
-b0100 O
-#66
-0{
-#71
-b00000011 "K
-b00000000 "L
-1{
-b00000011 "P
-b0101 O
-#76
-0{
-#81
-b00000000 "K
-1{
-b00000101 "O
-b00000000 "P
-b0110 O
-#86
-0{
-#91
-1{
-b00000001 "O
-b0111 O
-#96
-0{
-#101
-1{
-b00000000 "O
-b1000 O
-#106
-0{
-#111
-1{
-b1001 O
-#116
-0{
-#121
-1{
-b1010 O
-#126
-0{
-#131
-0"D
-b0001 "E
-1{
-b0000 O
-#136
-b00000000 "&
+b00000101 _
+b00000011 `
+b00000101 a
+b00000101 b
+b00000001 c
+b00000010 d
+b00000100 e
+b00000110 f
+b00000111 g
+b00000100 h
+b00000101 i
+b00000010 m
+b00000101 n
+b00000001 p
+b00000001 q
+b00000010 s
+b00000101 t
+b00000011 u
+b00000111 v
+b00000111 w
+0&]
+b00000100 y
+b00000100 z
+b00000011 {
+b00000101 &a
+b00000010 |
+b00000111 &b
+b00000111 }
+b00000101 &c
+b00000110 ~
+b00000001 &d
+b00000100 &e
+#11
+b0001 $'
+0!
+b00000011 &$
+b00000001 &%
+b00000101 &&
+b00000101 &'
+b00000001 &(
+b00000100 &)
+b00000111 &*
+b00000001 &+
+b00000010 &,
+b00000011 &.
+b00000001 &/
+b00000111 &0
+b00000001 &1
+b00000010 &2
+b00000001 &3
+b00000101 &6
+b00000110 &8
+b00000101 &:
+b00000101 &;
+b00000010 &<
+b00000100 &>
+b00000010 &@
+b00000011 &A
+b00000101 &B
+b00000100 &C
+b00000001 &D
+b00000100 &E
+b00000101 &F
+b00000111 &G
+b00000111 &H
+b00000101 &I
+b00000101 &J
+b00000110 &M
+b00000110 &N
+b00000100 &O
+b00000111 &P
+b00000111 &Q
+b00000011 &S
+b00000001 #1
+b00000011 &T
+b00000111 &U
+b00000101 #3
+b00000011 &V
+b00000101 #4
+b00000011 &W
+b00000001 &X
+b00000101 #6
+b00000100 &Y
+b00000010 #7
+b00000101 &Z
+b00000110 #8
+b00000111 #9
+0&\
+1&]
+#16
+b00000001 &g
+b00000101 &h
+b00000100 "!
+b00000011 ""
+b00000100 "#
+b00000000 "$
+b00000100 "&
+b00000000 "'
 b00000000 "(
-b00000000 (
-b00000000 "*
-b00000000 )
-b00000000 +
-b00000000 "-
-b00000000 ,
-b00000000 -
-b00000000 "/
-0{
-b00000000 }
-b00000000 ~
+b00000001 "*
+b00000000 "+
+b00000111 T
+b00000010 U
+b00000000 V
+b00000110 W
+b00000111 X
+b00000000 Y
+b00000111 Z
+b00000001 [
+b00000111 \
+b00000000 ]
+b00000110 _
+b00000111 `
+b00000010 a
+b00000110 b
+b00000100 c
+b00000100 d
+b00000101 e
+b00000100 f
+b00000010 g
+b00000001 h
+b00000111 i
+b00000101 j
+b00000111 k
+b00000011 l
+b00000110 m
+b00000111 n
+b00000100 o
+b00000011 p
+b00000111 r
+b00000111 s
+b00000001 t
+b00000100 u
+b00000110 w
+0&]
+b00000111 x
+b00000010 y
+b00000001 &_
+b00000110 &`
+b00000110 {
+b00000111 |
+b00000000 &b
+b00000100 }
+b00000010 &c
+b00000100 ~
+b00000101 &d
+b00000010 &e
+#21
+b00000101 #C
+b0010 $'
+b00000111 &!
+b00000101 &"
+b00000010 &#
+b00000011 %K
+b00000100 %L
+b00000001 %M
+b00000011 %N
+b00000001 %O
+b00000100 %P
+b00000110 %Q
+b00000110 %R
+b00000110 %S
+b00000101 %T
+b00000100 %V
+b00000001 %X
+b00000100 %Z
+b00000100 %[
+b00000111 %\
+b00000100 %^
+b00000110 %_
+b00000100 %`
+b00000101 %a
+b00000010 %d
+b00000100 %e
+b00000010 %f
+b00000111 %g
+b00000010 %h
+b00000001 %i
+b00000111 %j
+b00000101 %k
+b00000011 %l
+b00000111 %n
+b00000001 %o
+b00000110 %p
+b00000100 %q
+b00000100 %r
+b00000110 %s
+b00000111 %t
+b00000001 %u
+b00000010 %v
+b00000111 %w
+b00000001 %x
+b00000111 %y
+b00000111 %z
+b00000010 %{
+b00000001 #:
+1&]
+b00000011 %|
+b00000111 #;
+b00000110 #<
+b00000111 #=
+b00000001 #>
+b00000101 #?
+b00000100 #@
+b00000111 #A
+b00000111 #B
+#26
+1&9
+0%Y
+0&]
+#31
+b00000001 $j
+1&]
+b00001 &^
+1'A
+#36
+0&9
+0&]
+#41
+b00000010 $i
+b00000000 $j
+1&]
+b00010 &^
+#46
+0&]
+#51
+b00000101 $i
+1&]
+b00011 &^
+b00000011 $n
+#56
+0&]
+#61
+b00000111 $i
+b00000101 $j
+1&]
+b00100 &^
+b00000101 $m
+b00000100 $n
+#66
+0&]
+#71
+b00000011 $i
+1&]
+b00000111 $l
+b00101 &^
+b00000011 $m
+b00000001 $n
+#76
+0&]
+#81
+b00000000 $i
+b00000000 $j
+b00000100 $k
+1&]
+b00000000 $l
+b00110 &^
+b00000001 $m
+b00000101 $n
+#86
+0&]
+#91
+b00000111 $i
+b00000111 $j
+b00000001 $k
+1&]
+b00000101 $l
+b00111 &^
+b00000100 $m
+b00000100 $n
+b00000001 $p
+#96
+0&]
+#101
+b00000011 $i
+b00000110 $j
+1&]
+b00000110 $l
+b01000 &^
+b00000101 $m
+b00000000 $n
+b00000111 $p
+#106
+0&]
+#111
+b00000000 $j
+b00000111 $k
+1&]
+b00000000 $l
+b01001 &^
+b00000100 $m
+b00000010 $n
+b00000101 $o
+b00000010 $p
+#116
+0&]
+#121
+b00000000 $i
+b00000000 $k
+1&]
+b00000100 $l
+b01010 &^
+b00000111 $m
+b00000000 $n
+b00000000 $p
+#126
+0&]
+#131
+b00000010 $k
+1&]
+b00000110 $l
+b01011 &^
+b00000101 $m
+b00000010 $o
+b00000001 $p
+#136
+0&]
+#141
+b00000001 $k
+1&]
+b00000111 $l
+b01100 &^
+b00000000 $m
+b00000001 $o
+b00000101 $p
+#146
+0&]
+#151
+b00000011 $k
+1&]
+b00000000 $l
+b01101 &^
+b00000011 $o
+b00000000 $p
+#156
+0&]
+#161
+b00000000 $k
+1&]
+b01110 &^
+b00000101 $o
+b00000110 $p
+#166
+0&]
+#171
+1&]
+b01111 &^
+b00000000 $p
+#176
+0&]
+#181
+1&]
+b10000 &^
+b00000000 $o
+#186
+0&]
+#191
+1&]
+b10001 &^
+#196
+0&]
+#201
+1&]
+b10010 &^
+#206
+0&]
+#211
+1&]
+b10011 &^
+#216
+0&]
+#221
+1&]
+b10100 &^
+#226
+0&]
+#231
+1&]
+b10101 &^
+#236
+0&]
+#241
+1&]
+b10110 &^
+1%?
+#246
+0&]
+#251
+b0001 &[
+1&]
+b00000 &^
+0%?
+0'A
+#256
+b00000000 &f
+b00000000 &g
+b00000000 &h
 b00000000 "!
+b00000000 ""
+b00000000 "#
+b00000000 "%
+b00000000 "&
+b00000000 ")
+b00000000 "*
+b00000000 T
+b00000000 U
+b00000000 W
+b00000000 X
+b00000000 Z
+b00000000 [
+b00000000 \
+b00000000 ^
+b00000000 _
+b00000000 `
+b00000000 a
+b00000000 b
+b00000000 c
+b00000000 d
+b00000000 e
+b00000000 f
+b00000000 g
+b00000000 h
+b00000000 i
+b00000000 j
+b00000000 k
+b00000000 l
+b00000000 m
+b00000000 n
+b00000000 o
+b00000000 p
+b00000000 q
+b00000000 r
+b00000000 s
+b00000000 t
+b00000000 u
+b00000000 v
+b00000000 w
+0&]
+b00000000 x
+b00000000 y
+b00000000 &_
+b00000000 z
+b00000000 &`
+b00000000 {
+b00000000 &a
+b00000000 |
+b00000000 }
+b00000000 &c
+b00000000 ~
+b00000000 &d
+b00000000 &e

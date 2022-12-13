@@ -8,11 +8,11 @@ trait Mini_TPU_Config {
   val Sum_Width = 4 * Data_Width
 
   /** PE Systolic Array configuration */
-  val PE_Width = 4
+  val PE_Width = 8
   val Array_Width = PE_Width * PE_Width
 
   /** Activation Buffer configuration */
-  val Activate_Depth = 8 /* must be the pow of 2 */
+  val Activate_Depth = 4 /* must be the pow of 2 */
 
   /** Weight Buffer configuration */
   val Buffer_Depth = 4 /* must be the pow of 2 */
