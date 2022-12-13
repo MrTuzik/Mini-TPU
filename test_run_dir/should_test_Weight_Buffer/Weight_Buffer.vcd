@@ -1,0 +1,426 @@
+$date
+2022-12-12T14:45+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Weight_Buffer $end
+ $var wire 1 ! empty $end
+ $var wire 3 " shift_ptr $end
+ $var wire 1 # io_isdone $end
+ $var wire 1 $ clock $end
+ $var wire 1 % full $end
+ $var wire 8 & buffer_0_1 $end
+ $var wire 8 ' buffer_0_0 $end
+ $var wire 8 ( buffer_0_5 $end
+ $var wire 8 ) buffer_0_4 $end
+ $var wire 8 * buffer_0_3 $end
+ $var wire 8 + buffer_0_2 $end
+ $var wire 8 , buffer_0_9 $end
+ $var wire 8 - buffer_0_8 $end
+ $var wire 8 . buffer_0_7 $end
+ $var wire 8 / buffer_0_6 $end
+ $var wire 8 0 buffer_2_10 $end
+ $var wire 8 1 buffer_2_12 $end
+ $var wire 8 2 buffer_2_11 $end
+ $var wire 8 3 buffer_2_14 $end
+ $var wire 8 4 buffer_2_13 $end
+ $var wire 8 5 buffer_2_15 $end
+ $var wire 1 6 reset $end
+ $var wire 8 7 buffer_2_3 $end
+ $var wire 8 8 buffer_2_2 $end
+ $var wire 8 9 buffer_2_1 $end
+ $var wire 8 : buffer_2_0 $end
+ $var wire 8 ; buffer_2_7 $end
+ $var wire 8 < buffer_2_6 $end
+ $var wire 8 = buffer_2_5 $end
+ $var wire 8 > buffer_2_4 $end
+ $var wire 8 ? buffer_2_9 $end
+ $var wire 8 @ buffer_2_8 $end
+ $var wire 1 A io_ren $end
+ $var wire 8 B buffer_0_10 $end
+ $var wire 8 C buffer_0_12 $end
+ $var wire 8 D buffer_0_11 $end
+ $var wire 8 E buffer_0_14 $end
+ $var wire 8 F io_out_weight_0 $end
+ $var wire 8 G buffer_0_13 $end
+ $var wire 8 H buffer_0_15 $end
+ $var wire 8 I io_out_weight_3 $end
+ $var wire 8 J io_out_weight_2 $end
+ $var wire 8 K io_out_weight_1 $end
+ $var wire 8 L buffer_3_10 $end
+ $var wire 8 M buffer_3_11 $end
+ $var wire 1 N io_isempty $end
+ $var wire 8 O buffer_3_14 $end
+ $var wire 8 P buffer_3_15 $end
+ $var wire 8 Q buffer_3_12 $end
+ $var wire 8 R buffer_3_13 $end
+ $var wire 3 S read_ptr $end
+ $var wire 1 T io_wen $end
+ $var wire 1 U io_isfull $end
+ $var wire 8 V buffer_1_0 $end
+ $var wire 8 W buffer_1_4 $end
+ $var wire 8 X buffer_1_3 $end
+ $var wire 8 Y buffer_1_2 $end
+ $var wire 8 Z buffer_1_1 $end
+ $var wire 8 [ buffer_1_8 $end
+ $var wire 8 \ buffer_1_7 $end
+ $var wire 8 ] buffer_1_6 $end
+ $var wire 8 ^ buffer_1_5 $end
+ $var wire 8 _ buffer_1_9 $end
+ $var wire 1 ` io_out_shift $end
+ $var wire 3 a write_ptr $end
+ $var wire 8 b buffer_3_2 $end
+ $var wire 8 c buffer_3_1 $end
+ $var wire 8 d buffer_3_0 $end
+ $var wire 8 e buffer_3_6 $end
+ $var wire 8 f buffer_3_5 $end
+ $var wire 8 g buffer_3_4 $end
+ $var wire 8 h buffer_3_3 $end
+ $var wire 8 i buffer_3_9 $end
+ $var wire 8 j buffer_3_8 $end
+ $var wire 8 k buffer_3_7 $end
+ $var wire 8 l buffer_1_11 $end
+ $var wire 8 m buffer_1_10 $end
+ $var wire 8 n buffer_1_13 $end
+ $var wire 8 o buffer_1_12 $end
+ $var wire 8 p buffer_1_15 $end
+ $var wire 8 q buffer_1_14 $end
+ $var wire 8 r io_in_weight_x_10 $end
+ $var wire 8 s io_in_weight_x_11 $end
+ $var wire 8 t io_in_weight_x_12 $end
+ $var wire 8 u io_in_weight_x_13 $end
+ $var wire 8 v io_in_weight_x_9 $end
+ $var wire 8 w io_in_weight_x_7 $end
+ $var wire 8 x io_in_weight_x_8 $end
+ $var wire 8 y io_in_weight_x_5 $end
+ $var wire 8 z io_in_weight_x_6 $end
+ $var wire 8 { io_in_weight_x_14 $end
+ $var wire 8 | io_in_weight_x_3 $end
+ $var wire 8 } io_in_weight_x_15 $end
+ $var wire 8 ~ io_in_weight_x_4 $end
+ $var wire 8 "! io_in_weight_x_1 $end
+ $var wire 8 "" io_in_weight_x_2 $end
+ $var wire 8 "# io_in_weight_x_0 $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b00000000 k
+b00000000 j
+b00000000 m
+b00000000 l
+b00000000 g
+b00000000 f
+06
+b00000000 i
+b00000000 h
+b00000000 c
+b00000000 b
+b00000000 e
+b00000000 d
+b00000000 _
+b00000000 ^
+b00000000 {
+0A
+b00000000 z
+b00000000 }
+b00000000 |
+b00000000 w
+b00000000 v
+b00000000 y
+b00000000 x
+b00000000 s
+b00000000 r
+b00000000 u
+b00000000 t
+b00000000 o
+b00000000 n
+0N
+b00000000 q
+b00000000 p
+b00000000 K
+b00000000 J
+b00000000 M
+b00000000 L
+0T
+b00000000 G
+0U
+b00000000 F
+b00000000 I
+b00000000 H
+b00000000 C
+b00000000 B
+b00000000 E
+b00000000 D
+b00000000 ?
+b00000000 >
+b00000000 @
+0`
+b00000000 [
+b00000000 Z
+b00000000 ]
+b00000000 \
+b00000000 W
+b00000000 V
+b00000000 Y
+b00000000 X
+b00000000 R
+b00000000 "#
+b00000000 O
+b00000000 ""
+b00000000 "!
+b00000000 Q
+b00000000 P
+b00000000 ~
+b000 S
+b000 a
+b00000000 +
+b00000000 *
+b00000000 -
+b00000000 ,
+b00000000 '
+b00000000 &
+b00000000 )
+b00000000 (
+b00000000 ;
+b00000000 :
+b00000000 =
+b00000000 <
+b00000000 7
+b00000000 9
+b00000000 8
+b00000000 3
+b00000000 2
+b00000000 5
+b00000000 4
+b00000000 /
+b00000000 .
+b00000000 1
+b00000000 0
+b000 "
+0!
+0#
+0$
+0%
+$end
+#0
+1`
+1!
+1#
+16
+1N
+#1
+0`
+b100 "
+0#
+1$
+#6
+b00000011 ""
+b00000011 "#
+0$
+b00000110 r
+b00000010 s
+1T
+b00000001 t
+06
+b00000001 v
+b00000111 w
+b00000111 x
+b00000010 z
+b00000011 {
+b00000100 |
+b00000101 ~
+b00000100 "!
+#11
+0!
+b001 a
+b00000110 B
+b00000001 C
+1$
+b00000010 D
+b00000011 E
+b00000100 &
+b00000011 '
+b00000101 )
+b00000100 *
+b00000011 +
+b00000001 ,
+b00000111 -
+b00000111 .
+0N
+b00000010 /
+#16
+b00000000 "#
+0$
+b00000001 r
+b00000001 s
+b00000101 t
+b00000000 v
+b00000101 w
+b00000101 x
+b00000111 y
+b00000110 z
+b00000010 |
+b00000101 }
+b00000110 ~
+b00000000 "!
+#21
+b010 a
+1$
+b00000001 l
+b00000001 m
+b00000101 o
+b00000101 p
+b00000011 q
+b00000110 W
+b00000010 X
+b00000011 Y
+b00000101 [
+b00000101 \
+b00000110 ]
+b00000111 ^
+#26
+b00000111 ""
+b00000010 "#
+0$
+b00000111 r
+b00000010 s
+b00000000 t
+b00000111 u
+b00000101 v
+b00000001 x
+b00000110 y
+b00000100 {
+b00000100 |
+b00000000 }
+b00000101 ~
+b00000101 "!
+#31
+b00000001 @
+b011 a
+1$
+b00000111 0
+b00000010 2
+b00000100 3
+b00000111 4
+b00000100 7
+b00000111 8
+b00000101 9
+b00000010 :
+b00000101 ;
+b00000110 <
+b00000110 =
+b00000101 >
+b00000101 ?
+#36
+b00000110 ""
+b00000101 "#
+0$
+b00000101 r
+b00000110 s
+b00000111 t
+b00000000 u
+b00000001 v
+b00000011 w
+b00000011 x
+b00000010 y
+b00000011 z
+b00000011 {
+b00000011 |
+b00000011 }
+b00000110 ~
+b00000110 "!
+#41
+b100 a
+b00000110 b
+b00000110 c
+1$
+b00000101 d
+1%
+b00000011 e
+b00000010 f
+b00000110 g
+b00000011 h
+b00000001 i
+b00000011 j
+b00000011 k
+b00000101 L
+b00000110 M
+b00000011 O
+b00000011 P
+b00000111 Q
+1U
+#46
+1A
+0$
+0T
+#51
+1`
+b011 "
+1$
+b00000001 F
+b00000011 J
+#56
+0A
+0$
+#61
+b010 "
+1$
+b00000111 F
+b00000010 I
+b00000110 J
+b00000001 K
+#66
+0$
+#71
+b001 "
+1$
+b00000101 F
+b00000111 I
+b00000010 J
+b00000000 K
+#76
+0$
+#81
+b000 "
+1#
+1$
+b00000011 F
+b00000100 I
+b00000011 J
+b00000100 K
+#86
+0$
+#91
+0`
+b100 "
+0#
+b001 S
+1$
+0%
+0U
+b00000000 F
+b00000000 I
+b00000000 J
+b00000000 K
+#96
+b00000000 ""
+b00000000 "#
+0$
+b00000000 r
+b00000000 s
+b00000000 t
+b00000000 v
+b00000000 w
+b00000000 x
+b00000000 y
+b00000000 z
+b00000000 {
+b00000000 |
+b00000000 }
+b00000000 ~
+b00000000 "!
