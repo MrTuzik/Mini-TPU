@@ -1,0 +1,73 @@
+$date
+2022-12-15T08:21+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module basic_PE $end
+ $var wire 8 ! Activation_Reg $end
+ $var wire 16 " PSum_Reg $end
+ $var wire 1 # io_in_flow $end
+ $var wire 8 $ io_out_weight $end
+ $var wire 1 % io_in_shift $end
+ $var wire 16 & io_out_psum $end
+ $var wire 8 ' io_in_weight $end
+ $var wire 1 ( clock $end
+ $var wire 8 ) io_out_activate $end
+ $var wire 16 * io_in_psum $end
+ $var wire 8 + io_in_activate $end
+ $var wire 8 , Weight_Reg $end
+ $var wire 1 - reset $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b00000000 +
+b00000000 ,
+b00000000 '
+b00000000 )
+b0000000000000000 "
+b0000000000000000 &
+b00000000 $
+b00000000 !
+b0000000000000000 *
+0#
+0%
+0(
+0-
+$end
+#0
+1-
+#1
+1(
+#6
+1%
+b00000011 '
+0(
+b0000000000000001 *
+0-
+#11
+b00000011 $
+1(
+b00000011 ,
+#16
+1#
+0%
+b00000010 '
+0(
+b00000010 +
+#21
+b00000010 !
+b0000000000000001 "
+b0000000000000111 &
+1(
+b00000010 )
+#26
+0#
+b00000000 '
+0(
+b0000000000000000 *
+b00000000 +

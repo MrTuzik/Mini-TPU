@@ -7,7 +7,7 @@ import org.scalatest._
 
 class Mini_TPU_Test extends FlatSpec with ChiselScalatestTester with Mini_TPU_Config {
   it should "test basic_PE" in {
-    test(new basic_PE()) { dut =>
+    test(new basic_PE()).withAnnotations(Seq(WriteVcdAnnotation)) { dut =>
       /** shift the weight */
       dut.io.in_weight.poke(3.U)
       dut.io.in_psum.poke(1.U)
@@ -40,8 +40,8 @@ class Mini_TPU_Test extends FlatSpec with ChiselScalatestTester with Mini_TPU_Co
       /** initialize the data & weight array */
       for (i <- 0 until PE_Width) {
         for (j <- 0 until PE_Width) {
-          Data(i)(j) = (Data_Width * scala.math.random()).toInt
-          Weight(i)(j) = (Weight_Width * scala.math.random()).toInt
+          Data(i)(j) = (scala.math.pow(2, Data_Width - 1) * scala.math.random()).toInt
+          Weight(i)(j) = (scala.math.pow(2, Weight_Width - 1) * scala.math.random()).toInt
         }
       }
 
@@ -100,6 +100,7 @@ class Mini_TPU_Test extends FlatSpec with ChiselScalatestTester with Mini_TPU_Co
       reformat.array2vec(Activate(PE_Width), dut.io.activate)
       dut.clock.step()
       dut.io.psum(1).expect(PSum(1)(1).asUInt)
+      dut.clock.step(2 * PE_Width - 2)
     }
   }
 
@@ -109,7 +110,7 @@ class Mini_TPU_Test extends FlatSpec with ChiselScalatestTester with Mini_TPU_Co
 
       for (i <- 0 until Buffer_Depth) {
         for (j <- 0 until Array_Width) {
-          Weight(i)(j) = (Weight_Width * scala.math.random()).toInt
+          Weight(i)(j) = (scala.math.pow(2, Weight_Width - 1) * scala.math.random()).toInt
         }
       }
 
@@ -152,7 +153,7 @@ class Mini_TPU_Test extends FlatSpec with ChiselScalatestTester with Mini_TPU_Co
 
       for (i <- 0 until Activate_Depth) {
         for (j <- 0 until Array_Width) {
-          Data(i)(j) = (Data_Width * scala.math.random()).toInt
+          Data(i)(j) = (scala.math.pow(2, Data_Width - 1) * scala.math.random()).toInt
         }
       }
 
@@ -230,10 +231,10 @@ class Mini_TPU_Test extends FlatSpec with ChiselScalatestTester with Mini_TPU_Co
       /** initialize the data & weight array */
       for (i <- 0 until PE_Width) {
         for (j <- 0 until PE_Width) {
-          Data0(i)(j) = (Data_Width * scala.math.random()).toInt
-          Weight0(i)(j) = (Weight_Width * scala.math.random()).toInt
-          Data1(i)(j) = (Data_Width * scala.math.random()).toInt
-          Weight1(i)(j) = (Weight_Width * scala.math.random()).toInt
+          Data0(i)(j) = (scala.math.pow(2, Data_Width - 1) * scala.math.random()).toInt
+          Weight0(i)(j) = (scala.math.pow(2, Weight_Width - 1) * scala.math.random()).toInt
+          Data1(i)(j) = (scala.math.pow(2, Data_Width - 1) * scala.math.random()).toInt
+          Weight1(i)(j) = (scala.math.pow(2, Weight_Width - 1) * scala.math.random()).toInt
         }
       }
 
@@ -336,14 +337,14 @@ class Mini_TPU_Test extends FlatSpec with ChiselScalatestTester with Mini_TPU_Co
       /** initialize the data & weight array */
       for (i <- 0 until PE_Width) {
         for (j <- 0 until PE_Width) {
-          Data0(i)(j) = (Data_Width * scala.math.random()).toInt
-          Weight0(i)(j) = (Weight_Width * scala.math.random()).toInt
-          Data1(i)(j) = (Data_Width * scala.math.random()).toInt
-          Weight1(i)(j) = (Weight_Width * scala.math.random()).toInt
-          Data2(i)(j) = (Data_Width * scala.math.random()).toInt
-          Weight2(i)(j) = (Weight_Width * scala.math.random()).toInt
-          Data3(i)(j) = (Data_Width * scala.math.random()).toInt
-          Weight3(i)(j) = (Weight_Width * scala.math.random()).toInt
+          Data0(i)(j) = (scala.math.pow(2, Data_Width - 1) * scala.math.random()).toInt
+          Weight0(i)(j) = (scala.math.pow(2, Weight_Width - 1)* scala.math.random()).toInt
+          Data1(i)(j) = (scala.math.pow(2, Data_Width - 1) * scala.math.random()).toInt
+          Weight1(i)(j) = (scala.math.pow(2, Weight_Width - 1) * scala.math.random()).toInt
+          Data2(i)(j) = (scala.math.pow(2, Data_Width - 1) * scala.math.random()).toInt
+          Weight2(i)(j) = (scala.math.pow(2, Weight_Width - 1) * scala.math.random()).toInt
+          Data3(i)(j) = (scala.math.pow(2, Data_Width - 1) * scala.math.random()).toInt
+          Weight3(i)(j) = (scala.math.pow(2, Weight_Width - 1) * scala.math.random()).toInt
         }
       }
 
